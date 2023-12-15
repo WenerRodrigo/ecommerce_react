@@ -39,16 +39,17 @@ export const Home = () => {
                 <h2 className={styles.title}>Nossos Produtos</h2>
                 <input
                     type="text"
-                    placeholder="Pesquisar produtos"
+                    placeholder="Pesquisar mais produtos..."
                 />
 
                 <div className={styles.cards}>
                     {data.map((item: any) => (
                         <div className={styles.contentCards} key={item.id}>
                             <img src={item.thumbnail} alt={item.title} />
-                            <h4>{item.title}</h4>
-                            <span>R$: {item.original_price}</span>
-                            <p>R$: {item.price}</p>
+                            <h4 className={styles.titleCard}>{item.title}</h4>
+                            <span className={styles.originalPrice}>de R$: {item.original_price}</span>
+                            <p className={styles.price}>por R$: {item.price}</p>
+                            <p className={styles.description}>em até 10x vezes sem juros</p>
                             <button>Comprar</button>
                         </div>
                     ))}
