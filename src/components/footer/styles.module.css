@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    bottom: 0;
+    gap: 10px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.subTitle {
+    font-size: 1.4rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+@media (max-width: 320px) {
+    .logo {
+        width: 35px;
+        height: 35px;
+    }
+
+    .subTitle {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .logo {
+        width: 37px;
+        height: 37px;
+    }
+
+    .subTitle {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .container {
+        width: 100%;
+    }
+    
+    .logo {
+        width: 37px;
+        height: 37px;
+    }
+
+    .subTitle {
+        font-size: 1.2rem;
+    }
+}
