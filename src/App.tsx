@@ -2,11 +2,12 @@ import './App.css';
 import { Footer } from './components/footer';
 import { Header } from './components/header';
 import { HeaderContent } from './components/headerContent';
+import { AppRoutes } from './routes';
 
 function App() {
   return (
     <div>
-      <Header />
+      <AppRoutes />
       <HeaderContent />
       <Footer />
     </div>

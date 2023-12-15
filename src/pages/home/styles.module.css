@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+input {
+    width: 50%;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.contentCards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: 350px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
