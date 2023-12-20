@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto 15px;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.container span {
+    position: absolute;
+    top: -17px;
+    right: -10px;
+    background-color: #f00;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+
+}

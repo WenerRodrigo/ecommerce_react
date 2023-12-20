@@ -13,7 +13,7 @@ export const Home = () => {
 
         api.get('/sites/MLB/search', {
             params: {
-                q: 'videoGames',
+                q: 'videogame',
             }
         }).then(response => {
             const data = response.data.results;

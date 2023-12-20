@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './styles.module.css';
+import { Cart } from '../cart';
 
 
 const logo = require('../../assets/icone.png');
@@ -15,6 +16,7 @@ export const Header = () => {
                     alt='Icone Logo'/>
                 Eletronics</h1>
             </div>
+            <Cart />
         </div>
     )
 
