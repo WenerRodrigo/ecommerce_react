@@ -36,12 +36,6 @@ export const Home = () => {
     return (
         <div className={styles.container}>
             <div className={styles.content}>
-                <h2 className={styles.title}>Nossos Produtos</h2>
-                <input
-                    type="text"
-                    placeholder="Pesquisar mais produtos..."
-                />
-
                 <div className={styles.cards}>
                     {data.map((item: any) => (
                         <div className={styles.contentCards} key={item.id}>

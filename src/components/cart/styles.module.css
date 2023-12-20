@@ -25,3 +25,44 @@
 
 }
 
+@media (max-width: 320px) {
+    .container {
+        margin: 10px;
+    }
+
+    .container span {
+        top: -15px;
+        right: -10px;
+        width: 15px;
+        height: 15px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 375px) {
+    .container {
+        margin: 10px;
+    }
+
+    .container span {
+        top: -15px;
+        right: -10px;
+        width: 15px;
+        height: 15px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 425px) {
+    .container {
+        margin: 10px;
+    }
+
+    .container span {
+        top: -15px;
+        right: -10px;
+        width: 15px;
+        height: 15px;
+        font-size: 10px;
+    }
+}
