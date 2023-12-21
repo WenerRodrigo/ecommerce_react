@@ -1,0 +1,44 @@
+.container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 350px;
+    height: 100%;
+    background-color: #1576c1;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.icon_close {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.description {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.finalizar {
+    width: 50%;
+    height: 40px;
+    background-color: #021e29;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.finalizar:hover {
+    background-color: #fff;
+    color: #021e29;
+}
