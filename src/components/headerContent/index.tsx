@@ -6,6 +6,7 @@ import { MdComputer } from "react-icons/md";
 import { FaHeadphonesAlt } from "react-icons/fa";
 import styles from "./styles.module.css";
 import { Home } from "../../pages/home";
+import { Carrossel } from "../carrossel";
 
 export const HeaderContent = () => {
     return (
@@ -21,6 +22,7 @@ export const HeaderContent = () => {
                     </ul>
                 </div>
             </div>
+            <Carrossel />
             <Home />
         </>
     )
